@@ -9,7 +9,7 @@ This template is for crypto landing page which enable a normal person to join th
 
 ## Demo
 
-![Project-5](./project-5.png)
+![Project-5](./Project-5.png)
 
 ## Run Locally
 
