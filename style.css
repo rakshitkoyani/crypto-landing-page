@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+body {
+  background-image: url("./assets/bg.png");
+  background-repeat: no-repeat;
+  background-size: 1366px auto;
+
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #ffffff;
+  background-color: #000000;
+  height: 10vh;
+}
+
+nav img {
+  width: 100px;
+  border: #ffffff;
+  border-right: #ffffff;
+}
+
+.img-div {
+  margin: auto 50px;
+  display: flex;
+  flex: 0.5;
+  border-right: #ffffff;
+
+}
+
+.grow-list {
+  display: flex;
+  flex: 1 1 auto;
+
+}
+
+ul {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.list-item:first-child:after {
+  content: ">";
+  transform: rotate(90deg);
+  width: 2px;
+  margin: 0 10px;
+}
+
+.img-div::after {
+  content: " ";
+  margin: 0 50px;
+  border-right: 1px solid white;
+}
+
+.button-small {
+  display: flex;
+  flex: 1;
+  color: #ffffff;
+  background-color: #BA0CC5;
+  margin: 0 50px 0 250px;
+  padding: 8px 30px;
+  border-radius: 8px;
+  font-size: medium;
+  cursor: pointer;
+
+
+}
+
+/* hero section */
+.hero {
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-heading {
+  font-size: 4rem;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 100px;
+  width: 50%;
+  padding-bottom: 0;
+}
+
+.hero-description {
+  font-size: 1.5rem;
+}
+
+.button-large {
+  color: #ffffff;
+  background-color: #BA0CC5;
+  border: transparent;
+  margin: 30px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: x-large;
+  cursor: pointer;
+
+}
